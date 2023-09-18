@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testSuite_login,Chrome 116.0.0.0,,,2023-09-18 21:53:27,2023-09-18 21:53:55,27.696s,PASSED
+,,,,,,,
+Test Cases/ts01_login/tc01_login_cura-herokuapp,Chrome 116.0.0.0,,,2023-09-18 21:53:27,2023-09-18 21:53:55,27.483s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-18 21:53:28,2023-09-18 21:53:30,2.063s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-09-18 21:53:30,2023-09-18 21:53:30,0.161s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 116.0.0.0,,,2023-09-18 21:53:30,2023-09-18 21:53:40,9.920s,PASSED
+"click(findTestObject(""Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 116.0.0.0,,,2023-09-18 21:53:40,2023-09-18 21:53:41,1.076s,PASSED
+"setText(findTestObject(""Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 116.0.0.0,,,2023-09-18 21:53:41,2023-09-18 21:53:42,0.930s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 116.0.0.0,,,2023-09-18 21:53:42,2023-09-18 21:53:42,0.530s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-09-18 21:53:42,2023-09-18 21:53:44,2.050s,PASSED
+takeFullPageScreenshot(),Chrome 116.0.0.0,,,2023-09-18 21:53:44,2023-09-18 21:53:48,3.528s,PASSED
+"click(findTestObject(""Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/button_Login""))",Chrome 116.0.0.0,,,2023-09-18 21:53:48,2023-09-18 21:53:49,1.236s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Chrome 116.0.0.0,,,2023-09-18 21:53:49,2023-09-18 21:53:50,0.524s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-09-18 21:53:50,2023-09-18 21:53:52,2.008s,PASSED
+takeFullPageScreenshot(),Chrome 116.0.0.0,,,2023-09-18 21:53:52,2023-09-18 21:53:55,3.183s,PASSED

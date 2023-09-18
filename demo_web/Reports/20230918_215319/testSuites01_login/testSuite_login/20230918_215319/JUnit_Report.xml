@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testSuite_login" time="27.696" tests="1" failures="0" errors="0">
+   <testsuite name="testSuite_login" tests="1" failures="0" errors="0" time="27.696" skipped="0" timestamp="2023-09-18 21:53:27" hostname="User01 - DESKTOP-BSUKM24" id="Test Suites/testSuites01_login/testSuite_login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215319\\testSuites01_login\\testSuite_login\\20230918_215319"/>
+         <property name="logFiles" value="D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215319\\testSuites01_login\\testSuite_login\\20230918_215319\\execution0.log"/>
+         <property name="attachments" value="D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215319\\testSuites01_login\\testSuite_login\\20230918_215319\\1695048824874.png, D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215319\\testSuites01_login\\testSuite_login\\20230918_215319\\1695048832157.png"/>
+         <property name="hostName" value="User01 - DESKTOP-BSUKM24"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="e89f4fb8926671277e3c5385f33dabea"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ts01_login/tc01_login_cura-herokuapp" time="27.483" classname="Test Cases/ts01_login/tc01_login_cura-herokuapp" status="PASSED">
+         <system-out><![CDATA[2023-09-18 21:53:27 - [TEST_CASE][PASSED] - Test Cases/ts01_login/tc01_login_cura-herokuapp: Test Cases/ts01_login/tc01_login_cura-herokuapp
+
+2023-09-18 21:53:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-18 21:53:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-18 21:53:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-18 21:53:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-18 21:53:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-18 21:53:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-18 21:53:30 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-09-18 21:53:40 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-09-18 21:53:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-09-18 21:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-09-18 21:53:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Username_username'
+
+2023-09-18 21:53:42 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Username_username'
+
+2023-09-18 21:53:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Password_password'
+
+2023-09-18 21:53:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Password_password'
+
+2023-09-18 21:53:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-09-18 21:53:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-09-18 21:53:44 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-09-18 21:53:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-09-18 21:53:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215319\\testSuites01_login\\testSuite_login\\20230918_215319\\1695048824874.png]]
+
+2023-09-18 21:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-09-18 21:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-09-18 21:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/h2_Make Appointment"), 0): Object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+2023-09-18 21:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-18 21:53:50 - [MESSAGE][PASSED] - Object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+2023-09-18 21:53:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-09-18 21:53:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-09-18 21:53:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-09-18 21:53:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-09-18 21:53:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215319\\testSuites01_login\\testSuite_login\\20230918_215319\\1695048832157.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-18 21:53:27 - [TEST_SUITE][PASSED] - testSuite_login: Test Cases/ts01_login/tc01_login_cura-herokuapp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testSuite_login,Firefox 117.0,,,2023-09-18 21:57:57,2023-09-18 21:58:26,29.063s,PASSED
+,,,,,,,
+Test Cases/ts01_login/tc01_login_cura-herokuapp,Firefox 117.0,,,2023-09-18 21:57:57,2023-09-18 21:58:26,28.853s,PASSED
+"openBrowser("""")",Firefox 117.0,,,2023-09-18 21:57:57,2023-09-18 21:58:01,3.821s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-18 21:58:01,2023-09-18 21:58:01,0.048s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 117.0,,,2023-09-18 21:58:01,2023-09-18 21:58:07,5.964s,PASSED
+"click(findTestObject(""Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 117.0,,,2023-09-18 21:58:07,2023-09-18 21:58:08,1.146s,PASSED
+"setText(findTestObject(""Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 117.0,,,2023-09-18 21:58:08,2023-09-18 21:58:09,0.692s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 117.0,,,2023-09-18 21:58:09,2023-09-18 21:58:09,0.471s,PASSED
+delay(2),Firefox 117.0,,,2023-09-18 21:58:09,2023-09-18 21:58:12,2.056s,PASSED
+takeFullPageScreenshot(),Firefox 117.0,,,2023-09-18 21:58:12,2023-09-18 21:58:17,5.657s,PASSED
+"click(findTestObject(""Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/button_Login""))",Firefox 117.0,,,2023-09-18 21:58:17,2023-09-18 21:58:18,1.242s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Firefox 117.0,,,2023-09-18 21:58:18,2023-09-18 21:58:19,0.500s,PASSED
+delay(2),Firefox 117.0,,,2023-09-18 21:58:19,2023-09-18 21:58:21,2.013s,PASSED
+takeFullPageScreenshot(),Firefox 117.0,,,2023-09-18 21:58:21,2023-09-18 21:58:26,4.993s,PASSED

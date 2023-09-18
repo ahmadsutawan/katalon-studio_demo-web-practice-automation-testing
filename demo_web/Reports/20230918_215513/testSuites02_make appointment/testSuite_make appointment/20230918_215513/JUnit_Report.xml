@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testSuite_make appointment" time="42.662" tests="1" failures="0" errors="0">
+   <testsuite name="testSuite_make appointment" tests="1" failures="0" errors="0" time="42.662" skipped="0" timestamp="2023-09-18 21:55:19" hostname="User01 - DESKTOP-BSUKM24" id="Test Suites/testSuites02_make appointment/testSuite_make appointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215513\\testSuites02_make appointment\\testSuite_make appointment\\20230918_215513"/>
+         <property name="logFiles" value="D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215513\\testSuites02_make appointment\\testSuite_make appointment\\20230918_215513\\execution0.log"/>
+         <property name="attachments" value="D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215513\\testSuites02_make appointment\\testSuite_make appointment\\20230918_215513\\1695048930486.png, D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215513\\testSuites02_make appointment\\testSuite_make appointment\\20230918_215513\\1695048938641.png, D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215513\\testSuites02_make appointment\\testSuite_make appointment\\20230918_215513\\1695048947855.png, D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215513\\testSuites02_make appointment\\testSuite_make appointment\\20230918_215513\\1695048953954.png"/>
+         <property name="hostName" value="User01 - DESKTOP-BSUKM24"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="c4ced80f20699f710424faa8d7c09a2b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ts02_make appointment/tc02_make appointment_cura-herokuapp" time="42.446" classname="Test Cases/ts02_make appointment/tc02_make appointment_cura-herokuapp" status="PASSED">
+         <system-out><![CDATA[2023-09-18 21:55:19 - [TEST_CASE][PASSED] - Test Cases/ts02_make appointment/tc02_make appointment_cura-herokuapp: Test Cases/ts02_make appointment/tc02_make appointment_cura-herokuapp
+
+2023-09-18 21:55:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ts01_login/tc01_login_cura-herokuapp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ts01_login/tc01_login_cura-herokuapp' successfully
+
+2023-09-18 21:55:20 - [TEST_CASE][PASSED] - Test Cases/ts01_login/tc01_login_cura-herokuapp: Test Cases/ts01_login/tc01_login_cura-herokuapp
+
+2023-09-18 21:55:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-18 21:55:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-18 21:55:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-18 21:55:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-18 21:55:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-18 21:55:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-18 21:55:22 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-09-18 21:55:26 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-09-18 21:55:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-09-18 21:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-09-18 21:55:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Username_username'
+
+2023-09-18 21:55:27 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Username_username'
+
+2023-09-18 21:55:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Password_password'
+
+2023-09-18 21:55:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/input_Password_password'
+
+2023-09-18 21:55:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-09-18 21:55:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-09-18 21:55:30 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-09-18 21:55:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-09-18 21:55:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215513\\testSuites02_make appointment\\testSuite_make appointment\\20230918_215513\\1695048930486.png]]
+
+2023-09-18 21:55:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-09-18 21:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-09-18 21:55:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/h2_Make Appointment"), 0): Object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+2023-09-18 21:55:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-18 21:55:36 - [MESSAGE][PASSED] - Object 'Object Repository/page01_login/page_login_cura-herokuapp/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+2023-09-18 21:55:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-09-18 21:55:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-09-18 21:55:38 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-09-18 21:55:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-09-18 21:55:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215513\\testSuites02_make appointment\\testSuite_make appointment\\20230918_215513\\1695048938641.png]]
+
+2023-09-18 21:55:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ts01_login/tc01_login_cura-herokuapp' successfully
+
+2023-09-18 21:55:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/page02_make appointment/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-09-18 21:55:43 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-09-18 21:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page02_make appointment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-09-18 21:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-09-18 21:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page02_make appointment/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-09-18 21:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-09-18 21:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page02_make appointment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2023-09-18 21:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2023-09-18 21:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page02_make appointment/Page_CURA Healthcare Service/td_18")): Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/td_18' is clicked on
+
+2023-09-18 21:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/td_18' is clicked on
+
+2023-09-18 21:55:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page02_make appointment/Page_CURA Healthcare Service/textarea_Comment_comment"), "katalon make appointment"): Text 'katalon make appointment' is set on object 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-09-18 21:55:45 - [MESSAGE][PASSED] - Text 'katalon make appointment' is set on object 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-09-18 21:55:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-09-18 21:55:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-09-18 21:55:47 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-09-18 21:55:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-09-18 21:55:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215513\\testSuites02_make appointment\\testSuite_make appointment\\20230918_215513\\1695048947855.png]]
+
+2023-09-18 21:55:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page02_make appointment/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-09-18 21:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-09-18 21:55:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-09-18 21:55:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-09-18 21:55:53 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-09-18 21:55:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-09-18 21:55:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Documents\\apps\\test\\katalon\\demo_web\\Reports\\20230918_215513\\testSuites02_make appointment\\testSuite_make appointment\\20230918_215513\\1695048953954.png]]
+
+2023-09-18 21:55:56 - [TEST_STEP][PASSED] - verifyTextPresent("Please be informed that your appointment has been booked as following:", true): Text 'Please be informed that your appointment has been booked as following:' is present on page  using regular expression
+
+2023-09-18 21:55:57 - [MESSAGE][PASSED] - Text 'Please be informed that your appointment has been booked as following:' is present on page  using regular expression
+
+2023-09-18 21:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page02_make appointment/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-09-18 21:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/page02_make appointment/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-09-18 21:55:58 - [TEST_STEP][PASSED] - verifyTextPresent("CURA Healthcare Service", false): Text 'CURA Healthcare Service' is present on page 
+
+2023-09-18 21:55:59 - [MESSAGE][PASSED] - Text 'CURA Healthcare Service' is present on page 
+
+2023-09-18 21:55:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-09-18 21:56:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-09-18 21:56:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-18 21:56:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-18 21:55:19 - [TEST_SUITE][PASSED] - testSuite_make appointment: Test Cases/ts02_make appointment/tc02_make appointment_cura-herokuapp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
